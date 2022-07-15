@@ -1,0 +1,30 @@
+[
+  {
+    "id": "1",
+    "name": "Cure Tools",
+    "image": "assets/Cure-Tools.png",
+    "live": "https://cure-tools.web.app/",
+    "description": "This is a full stack project for a manufacturing company. The site is interactive for both admins and common users."
+  },
+  {
+    "id": "2",
+    "name": "My Todo",
+    "image": "assets/My-todo.png",
+    "live": "https://ph-todo.web.app/",
+    "description": "This is a simple to-do app where a user can make a list for his upcoming tasks. "
+  },
+  {
+    "id": "3",
+    "name": "Fresh Fruit",
+    "image": "assets/Fresh-Fruit.png",
+    "live": "https://assignment-11-ce30f.web.app/",
+    "description": "A website for a wholesaler company, only admins' activities are available right now"
+  },
+  {
+    "id": "4",
+    "name": "Pet Care",
+    "image": "assets/Pet-Care-2.png",
+    "live": "https://i.ibb.co/KjGCz6m/Pet-Care-1.png",
+    "description": "A simple personal website for a vet who provides health care for pets."
+  }
+]

@@ -23,7 +23,7 @@ const Navbar = () => {
           </label>
           <ul
             tabIndex="0"
-            className="menu menu-compact dropdown-content mt-3 p-2 shadow rounded-box w-52 text-primary"
+            className="menu menu-compact dropdown-content mt-3 p-2 shadow rounded-box w-52 text-primary bg-white"
           >
             <li>
               <Link smooth to="/">
@@ -32,7 +32,7 @@ const Navbar = () => {
             </li>
 
             <li>
-              <Link smooth to="/">
+              <Link smooth to="/home#projects">
                 Projects
               </Link>
             </li>
@@ -42,12 +42,12 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link smooth to="/home">
+              <Link smooth to="/home#mine-left">
                 About Me
               </Link>
             </li>
             <li>
-              <Link smooth to="/home">
+              <Link smooth to="/home#mine-right">
                 Contact Me
               </Link>
             </li>
@@ -66,7 +66,7 @@ const Navbar = () => {
           </li>
 
           <li>
-            <Link smooth to="/home">
+            <Link smooth to="/home#projects">
               Projects
             </Link>
           </li>
