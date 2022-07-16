@@ -4,27 +4,83 @@
     "name": "Cure Tools",
     "image": "assets/Cure-Tools.png",
     "live": "https://cure-tools.web.app/",
-    "description": "This is a full stack project for a manufacturing company. The site is interactive for both admins and common users."
+    "description": "This is a full stack project for a manufacturing company. The site is interactive for both admins and common users.",
+    "git": {
+      "client": "https://github.com/faridulhaque/cure-tools-client",
+      "server": "https://github.com/faridulhaque/cure-tools-server"
+    },
+    "youtube": "",
+    "features": {
+      "one": "The home page have four sections. They are: a banner, an inventory section, a section to show user reviews and comments and a contact form.",
+      "two": "The site is accessible to both admins and users.",
+      "three": "An admin can see four routes such as 'Add a new product', 'Manage Orders', 'Manage Users', and 'Manage Products'.",
+      "four": "In the manage users page the admin can make another person an admin and also remove him as an admin.",
+      "five": "A user can have access to 'My Orders' and 'Add a review page'. In my orders page the user will show the products he ordered and a button will be available for him to pay for his order.",
+      "six": "A profile page is available for both admins and users. On that page they update their names, images and addresses."
+    },
+    "element": "Firebase authentication, Tailwind CSS, MongoDB, Node JS, and Stripe payment method are used to build the site."
   },
   {
     "id": "2",
     "name": "My Todo",
     "image": "assets/My-todo.png",
     "live": "https://ph-todo.web.app/",
-    "description": "This is a simple to-do app where a user can make a list for his upcoming tasks. "
+    "description": "This is a simple to-do app where a user can make a list for his upcoming tasks. ",
+    "git": {
+      "client": "https://github.com/faridulhaque/todo-app-client",
+      "server": "https://github.com/faridulhaque/todo-server"
+    },
+    "youtube": "",
+    "features": {
+      "one": "There are four routes in the app, they are: Home, To-do, Calender, and completed.",
+      "two": "The Home page will show the tasks for that day.",
+      "three": "The to-do page contains all upcoming tasks.",
+      "four": "The calendar route has a form. With that form, the user can add a task for future",
+      "five": "The completed route has the all completed tasks.",
+      "six": "On the Home and on the Todo page, there will is checkbox. Every time the checkbox is checked, the task is removed from this page and moved to completed folder."
+    },
+    "element": "Firebase authentication, Tailwind CSS, Daisy Ui MongoDB, and Node JS are used to build the site."
   },
   {
     "id": "3",
     "name": "Fresh Fruit",
     "image": "assets/Fresh-Fruit.png",
     "live": "https://assignment-11-ce30f.web.app/",
-    "description": "A website for a wholesaler company, only admins' activities are available right now"
+    "description": "This is a website for a company who buy fruits from the farmers and sell them to the shop owners all over the city.",
+    "git": {
+      "client": "https://github.com/faridulhaque/Fresh-Fruit",
+      "server": "https://github.com/faridulhaque/Fresh-Fruit-Server"
+    },
+    "youtube": "",
+    "features": {
+      "one": "This site has a home page which includes a banner and some text on it, a inventories showing six inventory items, a form to submit suggestions for the company and a footer.",
+      "two": "The site is accessible to admins only.",
+      "three": "There are three routes for a logged in user, one whereIn he can see his own items, another route called 'Manage items' where he can see different items added by the different users and the last one is add a new item where the user can put some data with a form and they will be added in database and will be shown in the 'manage items' page.",
+      "four": "There are two simple public routes: Blog and Suppliers.",
+      "five": "A user can have access to 'My Orders' and 'Add a review page'. In my orders page the user will show the products he ordered and a button will be available for him to pay for his order.",
+      "six": ""
+    },
+    "element": "This site is combined with html, css, bootstrap, react, fundamental JS, Node JS, firebase and some small react-libraries such as react-hot-toast, react-spinner etc."
   },
   {
     "id": "4",
     "name": "Pet Care",
     "image": "assets/Pet-Care-2.png",
-    "live": "https://i.ibb.co/KjGCz6m/Pet-Care-1.png",
-    "description": "A simple personal website for a vet who provides health care for pets."
+    "live": "https://github.com/faridulhaque/Pet-Care",
+    "description": "A simple personal website for a vet who provides health care for pets.",
+    "git": {
+      "client": "https://github.com/faridulhaque/Pet-Care",
+      "server": ""
+    },
+    "youtube": "",
+    "features": {
+      "one": "The home page have three sections. A banner, a section for services and a section for an announcement",
+      "two": "The site is accessible to users only.",
+      "three": "When a user click on the button from the services, it will take the user to a dynamic route",
+      "four": "The dynamic route is secured by firebase authentication. The user must have an account to sign in",
+      "five": "",
+      "six": ""
+    },
+    "element": "Firebase is used for authentication and tailwind is used for styling."
   }
 ]

@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
+import { CustomDialog } from "react-st-modal";
 import "../App.css";
+import DetailDialog from "./DetailDialog";
 
 const Projects = () => {
   const [data, setData] = useState([]);
@@ -8,6 +10,16 @@ const Projects = () => {
       .then((res) => res.json())
       .then((result) => setData(result));
   }, []);
+
+  const handleDetail = async (d) => {
+    const result = await CustomDialog(
+      <DetailDialog info={d}></DetailDialog>,
+      {
+        title: `Details for ${d.name}`,
+        showCloseIcon: true,
+      }
+    );
+  };
 
   return (
     <>
@@ -22,10 +34,17 @@ const Projects = () => {
               <h2 className="card-title">{d.name}</h2>
               <p>{d?.description}</p>
               <div className="card-actions">
-                <a href={d.live} target="_blank" className="btn btn-primary text-white">
+                <a
+                  href={d.live}
+                  target="_blank"
+                  className="btn btn-primary text-white"
+                >
                   Live site
                 </a>
-                <button className="btn btn-secondary text-white">
+                <button
+                  onClick={() => handleDetail(d)}
+                  className="btn btn-secondary text-white"
+                >
                   View Detail
                 </button>
               </div>

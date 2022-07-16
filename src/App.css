@@ -38,6 +38,10 @@
 .blogs {
     height: 100vh;
 }
+.detailDialog{
+    
+    height: auto;
+}
 
 @media only screen and (max-width: 600px) {
     .mine {

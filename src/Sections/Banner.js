@@ -19,7 +19,7 @@ const Banner = () => {
             already learned those I mentioned above. My next target is to learn
             Redux, Typescript, and Next JS.
           </p>
-          <a href="x" className="btn btn-primary mr-2" download>
+          <a href="farid_resume.pdf" className="btn btn-primary mr-2" download>
             Download Resume
           </a>
           <a

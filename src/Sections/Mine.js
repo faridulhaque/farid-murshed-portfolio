@@ -71,7 +71,7 @@ const Mine = () => {
               </div>
             </p>
 
-            <div class="card-actions justify-end">
+            <div className="card-actions justify-end">
               <a
                 href="https://form.jotform.com/221591432522045"
                 target="_blank"
