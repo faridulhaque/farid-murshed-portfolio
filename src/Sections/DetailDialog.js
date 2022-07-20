@@ -3,7 +3,7 @@ import { useDialog } from "react-st-modal";
 import "../App.css";
 
 const DetailDialog = ({ info }) => {
-  const { description, git, features, element, youtube } = info;
+  const { description, git, features, element, youtube, live } = info;
   const dialog = useDialog();
   return (
     <div className="detailDialog mx-5">
@@ -36,21 +36,21 @@ const DetailDialog = ({ info }) => {
       </ol>
       <p className="mt-5">{element}</p>
       <div className="mt-5">
-        <a href={git?.live} className="btn btn-primary mb-5">
+        <a target="_blank" href={live} className="btn btn-primary mb-5">
           Live Site
         </a>
         {youtube && (
-          <a href={youtube} className="btn btn-accent mb-5 ml-5 text-white">
+          <a target="_blank" href={youtube} className="btn btn-accent mb-5 ml-5 text-white">
             Watch on youtube
           </a>
         )}
 
         <br />
-        <a href={git?.client} className="btn btn-secondary mb-5">
+        <a target="_blank" href={git?.client} className="btn btn-secondary mb-5">
           Client-Side code
         </a>
         {git.server && (
-          <a href={git.server} className="btn btn-secondary ml-5 mb-5">
+          <a target="_blank" href={git.server} className="btn btn-secondary ml-5 mb-5">
             Server-Side code
           </a>
         )}
